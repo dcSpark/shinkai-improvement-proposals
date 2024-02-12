@@ -1,8 +1,8 @@
 ---
-Title: ?
+Title: My SIP Title
 Status: Draft
 Authors:
-    - Alice Doe <alice.doe@domain>
+  - Alice Doe <alice.doe@domain>
 Created: YYYY-MM-DD
 ---
 
