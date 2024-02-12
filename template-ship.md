@@ -1,6 +1,6 @@
 ```
 ---
-Title: My SIP Title
+Title: My SHIP Title
 Status: Draft
 Authors:
   - Alice Doe <alice.doe@domain>
@@ -21,7 +21,7 @@ Created: YYYY-MM-DD
 
 ## Rationale
 
-<!-- Further explanation about choices made in the specification, links to external relevant content/work, and anything else to wrap up the SIP. -->
+<!-- Further explanation about choices made in the specification, links to external relevant content/work, and anything else to wrap up the SHIP. -->
 
 ## Copyright
 
