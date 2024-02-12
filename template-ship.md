@@ -1,3 +1,4 @@
+```
 ---
 Title: My SIP Title
 Status: Draft
@@ -25,3 +26,5 @@ Created: YYYY-MM-DD
 ## Copyright
 
 Copyright and related rights waived via [CC0](../LICENSE.md).
+
+```
