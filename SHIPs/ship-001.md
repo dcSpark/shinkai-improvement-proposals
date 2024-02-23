@@ -37,11 +37,11 @@ A direct element holds a base64-encoded VRKai file inside of it directly (in the
 
 Example JSON:
 ```json
-<
+{
     "vrkai-type": "direct",
-    "vrkai-content": "..."
+    "vrkai-content": "...",
     "metadata": null
->
+}
 ```
 
 #### HTTP Reference
@@ -49,11 +49,11 @@ Example JSON:
 A HTTP reference element points to an external URL where a `.vrkai` file is hosted on the internet.
 
 ```json
-<
+{
     "vrkai-type": "http",
-    "url": "http://my-website.com/link/to/VR.vrkai"
+    "url": "http://my-website.com/link/to/VR.vrkai",
     "metadata": null
->
+}
 ```
 
 #### Network Reference
@@ -63,11 +63,11 @@ Network references allow specifying a path into the Vector File System of a Shin
 Of note, just because a path onto the network is provided, does not per-say mean that said path has public permissions set for it which allows anyone to read. The provided path may alternatively have "Whitelist" permission set, and require Kai delegation in order to gain access.
 
 ```json
-<
+{
     "vrkai-type": "network",
-    "network-path": "@@rob.shinkai/profileName/vectorFS/path/to/folder/or/item"
+    "network-path": "@@rob.shinkai/profileName/vectorFS/path/to/folder/or/item",
     "metadata": null
->
+}
 ```
 
 ##### Metadata Field
