@@ -8,7 +8,7 @@ Created: 2024-03-12
 
 ## Abstract
 
-<!-- A short  description of the target goals and technical obstacles. -->
+This SHIP aims to establish a standard for inserting pre-generated Vector Resources (VRs) within webpages, enabling applications to instantly detect and utilize them. This approach significantly reduces the processing time compared to generating embeddings each time, enhancing user experience by facilitating immediate access to complex VR documents and supporting new user interaction flows in various applications.
 
 ## Motivation
 
@@ -111,7 +111,7 @@ Here is a compiled example of a meta tag using the various types of elements:
 
 ## Rationale
 
-<!-- Further explanation about choices made in the specification, links to external relevant content/work, and anything else to wrap up the SHIP. -->
+The elements proposed above cover the gamut of main use cases, while providing an extra `metadata` field for future upgrades without breaking compatibility. As such, this SHIP provides a solid foundation for converting existing web UX flows, into AI-first experiences.
 
 ## Copyright
 
