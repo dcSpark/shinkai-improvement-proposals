@@ -104,7 +104,7 @@ Here is a compiled example of a meta tag using the various types of elements:
 <head>
   <meta
     name="shinkai-vector-resources"
-    content='[{"element-type": "direct-vrkai", "content": "...", "metadata": null}, {"element-type": "http", "url": "http://my-website.com/link/to/VR.vrkai", "metadata": null}, {"element-type": "network", "network-path": "@@rob.shinkai/profileName/vectorFS/path/to/folder/or/item", "metadata": null}]'
+    content="[{"element-type": "direct-vrkai", "content": "...", "metadata": null}, {"element-type": "http", "url": "http://my-website.com/link/to/VR.vrkai", "metadata": null}, {"element-type": "network", "network-path": "@@rob.shinkai/profileName/vectorFS/path/to/folder/or/item", "metadata": null}]"
   />
 </head>
 ```
